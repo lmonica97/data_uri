@@ -61,6 +61,6 @@ module URI
     end
   end
 
-  @@schemes['DATA'] = Data
+  @@schemes['DATA'] ||= Data
 
 end
